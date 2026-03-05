@@ -4,12 +4,10 @@ import Image from 'next/image'
 import Typewriter from 'typewriter-effect'
 import { BsArrowRight } from 'react-icons/bs'
 import { Particle } from '@tsparticles/engine'
-import ParticlesHero from './ParticleBackground'
 
 const Hero = () => {
   return (
     <div className="relative h-screen flex items-center justify-center text-white overflow-hidden flex-col">
-        <ParticlesHero />
         
         <div className="relative z-10 flex flex-col items-center">
             <Image src="/images/a1.png" alt="heroimage" width={150} height={150} className="rounded-full border-8 border-[#0c0c48aa]" 
